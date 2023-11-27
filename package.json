@@ -1,0 +1,34 @@
+{
+  "name": "offchain-fund",
+  "version": "1.0.0",
+  "description": "Smart contract for deploying stablecoin capital into Real World Assets (RWA) investments.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortunafi/offchain-fund.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fortunafi/offchain-fund/issues"
+  },
+  "homepage": "https://github.com/fortunafi/offchain-fund#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-foundry": "^1.1.1",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.3",
+    "typechain": "^8.3.1"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
